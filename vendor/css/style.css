@@ -1,0 +1,295 @@
+body{
+    border:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.my-nav{
+    position: fixed;
+    z-index: 9999;
+    height: 80px;
+    background-color: black;
+    width:100%;
+    color:white;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.nav-container{
+    height: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.my-link{
+    margin-right: 8px;
+    margin-left: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.link-left a{
+    color:white;
+}
+.link-right a{
+    color:rgb(217, 218, 220);
+}
+.my-link a{
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link-seperator{
+    cursor:context-menu;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.my-link a:hover{
+    color:rgb(30, 198, 46)
+}
+
+.premium-section{
+    display: flex;
+    flex:1;
+    height: 647px;
+    background-color: rgb(255, 70, 50);
+    color:black;
+    /* background:url(https://campaigns.scdn.co/images/holiday-2020-balloons.png) no-repeat; */
+}
+
+.premium-section-inner{
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+.premium-section-article p{
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    padding:10px 10px 10px 0;
+}
+.premium-section-h1 h1{
+    font-size: 4rem;
+    line-break: normal;
+    width: 500px;
+    font-weight: bold;
+    line-height: 70px;
+}
+.premium-section-text h2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    width: 550px;
+}
+.premium-section-image{
+    padding-top: 100px;
+    padding-bottom:100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.back-image{
+    width: 500px;
+    height: 500px;
+    background:url(https://campaigns.scdn.co/images/holiday-2020-balloons.png) no-repeat;
+}
+.premium-section-button{
+    padding:40px 40px 0 0;
+}
+.premium-section-button button{
+    background-color: black;
+    color:white;
+    width: 300px;
+    height: 50px;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.premium-section-button button:hover{
+    background-color: white;
+    color:black;
+    border-color: white;
+}
+.premium-section-footer{
+    padding:40px 0 40px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    
+}
+
+.free-section{
+    display: flex;
+    flex:1;
+    height: 606px;
+    
+    color:black;
+    background:url(/assets/circles.svg) no-repeat;
+    background-size: auto 100%;
+    background-position: 100% center;
+    background-color: rgb(45, 70, 185);
+    padding-top: 100px;
+    padding-bottom:100px;
+    color:rgb(30, 215, 96)
+}
+
+.free-section-h1 h1{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 70px;
+    font-family: 'Lato', sans-serif;
+}
+.free-section-text h2{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 25px;
+}
+
+.free-section-button{
+    padding:40px 20px 0 0;
+}
+.free-section-button button{
+    background-color: rgb(30, 215, 96);
+    color:rgb(45, 70, 185);
+    width: 300px;
+    height: 50px;
+    border-width: 1px;
+    border-color: rgb(30, 215, 96);
+    border-radius: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .1s;
+    -webkit-transition: .1s;
+}
+
+.free-section-button button:hover{
+    background-color: white;
+    color:rgb(45, 70, 185);
+    border-color: white;
+    transition: .2s;
+    -webkit-transition: .2s;
+}
+
+.footer{
+    background-color: black;
+    padding: 80px 0 60px 0;
+
+}
+
+.footer-links li{
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+.footer-links li a{
+    text-decoration: none;
+    color:white;
+}
+.footer-links li a:hover{
+    color:rgb(30, 215, 96);
+}
+.footer-links li:nth-child(1){
+    text-decoration: none;
+    list-style: none;
+    color:rgb(217, 218, 220);
+    font-size: 12px;
+    
+}
+.footer-links li{
+    margin-bottom: 20px;
+}
+
+.social-icon{
+    background-color:rgb(34, 35, 38);
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.social-icon:hover{
+    text-decoration: none;
+}
+
+.social-icon .social{
+    color:white;
+    font-size: 28px;
+}
+.social-icon .social:hover{
+    text-decoration: none;
+    color:rgb(30, 215, 96);
+}
+
+.footer-country{
+    font-size: 12px;
+
+}
+.footer-country a{
+    text-decoration: none;
+    color:#919496;
+}
+.footer-country a:hover{
+    color:rgb(30, 215, 96);
+}
+.footer-country img{
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-nav-list{
+    display: inline;
+    list-style: none;
+    color:#919496;
+}
+
+.footer-nav-list li{
+    display: inline;
+    margin-right: 15px;
+    font-size: 12px;
+    
+}
+
+.footer-nav li a {
+    color:#919496;
+    text-decoration: none;
+}
+.footer-nav li a:hover {
+    color:rgb(30, 215, 96);
+}
+.footer-nav div{
+    font-size: 12px;
+    color:#919496;
+}
+
+/* CV PAGE */
+
+.cv{
+    height: 100%;
+    background-color: black;
+    color:rgb(30, 215, 96);
+}
+
+.personal{
+    margin-top: 20px;
+}

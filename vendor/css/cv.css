@@ -1,0 +1,225 @@
+body{
+    display:flex;
+    flex:1;
+    flex-direction: row;
+}
+.left-side{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color:#000;
+    color:white;
+    padding-top:10vh;
+    padding-right: 3vh;
+}
+.left-side > .profile {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-img img {
+    width: 140px;
+    height: 175px;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+}
+.left-side > .profile > .profile-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:white;
+    padding-top:3vh;
+}
+.left-side > .profile-detail {
+    padding-top:3vh;
+    padding-left:1vh;
+    font-size:0.8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left-side > .profile-detail > .detail-title{
+    font-size: 1.3rem;
+    padding-bottom:1vh;
+    color:rgb(30, 215, 96);
+}
+.left-side > .profile-detail > .detail-title::before{
+    display: inline-block;
+    position: relative;
+    content: '';
+    background-color:rgb(30, 215, 96);
+    width: 35px;
+    height: 2px;
+    bottom:5px;
+}
+
+.left-side > .profile-detail *{
+    padding-top:0.5vh;
+    letter-spacing: 1.2px;
+}
+.left-side > .profile-detail .left-span{
+    color:rgb(30, 215, 96);
+    font-weight: bold;
+}
+.left-side > .profile-detail .detail-social{
+    padding-top:5vh;
+}
+.left-side > .profile-detail .detail-language{
+    padding-top:5vh;
+}
+.left-side > .profile-detail .detail-skills{
+    padding-top:5vh;
+}
+.detail-skills-option{
+    display: flex;
+    flex:1;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.detail-skills-option > .left-span{
+    color:white !important;
+    display:flex;
+    flex:1;
+    justify-self: flex-end;
+
+}
+
+.detail-skills-option > .progress-bar{
+
+    width: 20vw;
+    height: 1vh;
+    border:2px solid white;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.detail-skills-option > .progress-bar > .progress-in{
+    position: relative;
+    bottom:5px;
+    height: 0.85vh;
+    border:1px solid transparent;
+    background-color:rgb(30, 215, 96);
+}
+.value-0{ width: 0; }
+.value-1{ width: 10%; }
+.value-2{ width: 20%; }
+.value-3{ width: 30%; }
+.value-4{ width: 40%; }
+.value-5{ width: 50%; }
+.value-6{ width: 60%; }
+.value-7{ width: 70%; }
+.value-8{ width: 80%; }
+.value-9{ width: 90%; }
+.value-10{ width: 100%; }
+
+
+.left-side > .profile-detail .right-span a{
+    color:white;
+}
+
+
+.right-side{
+    background-color:white;
+    padding-left: 8px;
+    padding-right:8px;
+    display: flex;
+    flex:1.4;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+
+.right-side > .personal-detail{
+    margin-bottom:40px;
+    width: 100%;
+    
+}
+
+.seperator{
+    position: relative;
+    width: auto;
+    height: 2px;
+    background-color:rgb(30, 215, 96);
+}
+.seperator::before{
+    position: absolute;
+    content:'';
+    width: 15vw;
+    height: 2px;
+    background: #333;
+}
+.seperator::after{
+    position: absolute;
+    content:'';
+    width: 15vw;
+    height: 2px;
+    right: 0;
+    background: #333;
+
+} 
+.right-side > .personal-detail > .personal-title {
+    width: 100%;
+    height: auto;
+    color:#333;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.right-side > .personal-detail > .about-us-text {
+    color:rgb(70, 70, 70);
+    font-size: 0.8rem;
+}
+
+.edu-inf {
+    color:#333;
+    font-size: 1rem;
+    padding-top:10px;
+    padding-left:10px;
+}
+.edu-inf2{
+    color:rgb(110, 110, 110);
+    font-size: 0.8rem;
+    padding-left:10px;
+}
+
+.work-inf {
+    color:#333;
+    font-size: 0.9rem;
+    padding-left:10px;
+    padding-top:10px;
+    text-align: left;
+}
+.work-inf2{
+    width: 5vw;
+    color:rgb(110, 110, 110);
+    font-size:0.8rem;
+    padding-left:10px;
+}
+
+.hobby{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+.hobby-item > img{
+    width: 48px;
+    height: 48px;
+}
+.hobby-item{
+    padding-top:20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
+.hobby-item > .text {
+    text-align: center;
+    font-size: 0.9rem;
+    color:#333;
+    padding-top:10px;
+}
